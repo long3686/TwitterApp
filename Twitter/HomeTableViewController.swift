@@ -22,6 +22,10 @@ class HomeTableViewController: UITableViewController {
         loadTweet()
         
     }
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        loadTweet()
+    }
     
     func loadTweet(){
         
